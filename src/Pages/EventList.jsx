@@ -4,7 +4,6 @@ import { ContextR } from '../App';
 
 function EventList(props) {
     const {inputs, setInputs, eventArray, setEventArray} = useContext(ContextR);
-    //navegate
 
     function resetLists(){
     setInputs({});
